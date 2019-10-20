@@ -1,5 +1,5 @@
 function reading = getFromFile()
-startingFolder = 'C:\Users\asus\Desktop\zad1 Monia\FASTA';
+startingFolder = 'C:\Users\asus\Desktop\zad3 Monia\FASTA';
 if ~exist(startingFolder, 'dir')
     %if this file doesn't exists, then searching by another folder
     startingFolder = pwd;

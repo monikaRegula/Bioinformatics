@@ -1,4 +1,4 @@
-function [identifier, sequence] = getFastaFromUser(methodName)
+function fasta = getFastaFromUser(methodName)
 %Function gives user posibility to choose type of getting sequence.
 %There are 3 types:
 %1 - reading by keyboard
@@ -10,16 +10,15 @@ if methodName == 1
     fasta = getByKeyboard();
 elseif methodName == 2
     fileName = input('Enter file name:','s');
-    fasta = readFromFastaFile(fileName);
+    fasta = readFromFileFasta(fileName);
 elseif methodName == 3
     URLIdentifier= input('Enter URL Indentifier:','s');
     fasta = getFromNCBI(URLIdentifier);
 elseif methodName == 4
     fasta = getFromFile();
 else
-    error('Incorrect methof')
+    error('Incorrect method')
 end
 
-[identifier,sequence] = parseFasta(fasta);
 end
 

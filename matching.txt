@@ -1,0 +1,20 @@
+#Seq1: GACTTAC
+#Seq2: CGTGAATTCAT
+#Length: 8
+#Gap: -1
+#Identity: 5/8 63%
+#Gaps: 3/8 38%
+GA-CTTAC
+||  || |
+GAA-TT-C
+
+#Seq1: GACTTAC
+#Seq2: CGTGAATTCAT
+#Length: 8
+#Gap: -1
+#Identity: 5/8 63%
+#Gaps: 3/8 38%
+GA-CTT-A
+||  || |
+GAA-TTCA
+

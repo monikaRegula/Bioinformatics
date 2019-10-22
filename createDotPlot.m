@@ -5,7 +5,7 @@ function dotPlot = createDotPlot(comparison,window,mistake)
 %limits (equal or more than differnece between windows size and mistake)
 %then new matrix's cell equal 1.
 counter = 0;
-[size1, size2] = size(comparison)
+[size1, size2] = size(comparison);
 dotPlot = zeros(size1,size2);
 m = size2 - (window-1);
 n = size1 - (window-1);
@@ -29,14 +29,3 @@ for x=1:n
         counter = 0;
     end
 end
-
-
-
-figure;
-spy(dotPlot); 
-chart = gca; 
-chart.XAxisLocation = 'top'; 
-chart.Title.String = 'Dot plot'; 
-xlabel('First Sequence') 
-ylabel('Second Sequence')
-saveas(gcf,'dotPlot.png'); 

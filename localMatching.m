@@ -9,17 +9,11 @@ scoredMatrix(1,2:end) = 0;
 scoredMatrix(2:end,1) = 0;
 
 for i = 2:s1+1 %iteracja po wierszach
-    for j = 2:s2+1 %iteracja po kolumnach
-        help = seq1(i-1);
-        help2 = seq2(j-1);
+    for j = 2:s2+1 %iteracja po kolumnach    
+        score = findPunctation(punctationMatrix,seq1(i-1),seq2(j-1));
         
-        score = findPunctation(punctationMatrix,help,help2);
-        
-        if(help == help2)
-            diagonal = scoredMatrix(i-1,j-1) + score;
-        else
-            diagonal = scoredMatrix(i-1,j-1) + score;
-        end
+        %PRZEKATNA
+        diagonal = scoredMatrix(i-1,j-1) + score;
         %POZIOM
         left = scoredMatrix(i-1,j) + gap;
         %PION

@@ -36,10 +36,7 @@ for i = 1: length(x)
     
     while scoredMatrix(currentMax)>0
         navigator = scoredMatrix(currentMax);
-        
-        help = seq1(row -1);
-        help2 = seq2(column -1);
-        score = findPunctation(punctationMatrix,help,help2);
+        score = findPunctation(punctationMatrix,seq1(row -1),seq2(column -1));
         
         if scoredMatrix(currentMax - 1) == navigator - gap
             path(currentMax) = 1;
@@ -60,15 +57,9 @@ for i = 1: length(x)
             column = column -1;
             steps = [steps,2];
         end
-        
     end
-    
-   % path(currentMax) = 1;
     localPaths{i} = steps;
     optimalPaths{i}= path;
-    
-    figure = imagesc(scoredMatrix);
-    saveas(gcf,'scoredMatrix.png');
     
 end
 

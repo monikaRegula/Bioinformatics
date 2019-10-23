@@ -8,6 +8,6 @@ m = length(seq2);
 
 for i = 1:n
     for j = 1:m
-       comparison(i,j) = (seq1(i)==seq2(j))*1 + (seq1(i)==seq2(j)==0)*0;
+       comparison(i,j) = (seq1(i)==seq2(j))*1; 
     end
 end

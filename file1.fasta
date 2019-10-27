@@ -1,10 +1,35 @@
->Sequence1 1-6
-GA-CTTAC
->Sequence2 4-10
-GAA-TT-C
+>Sequence1 3-3
+A
+>Sequence2 9-9
+A
 
->Sequence1 1-6
-GA-CTT-A
->Sequence2 4-10
-GAA-TTCA
+>Sequence1 3-3
+T
+>Sequence2 9-9
+T
+
+>Sequence1 3-3
+G
+>Sequence2 9-9
+G
+
+>Sequence1 3-3
+G
+>Sequence2 9-9
+G
+
+>Sequence1 3-3
+G
+>Sequence2 9-9
+G
+
+>Sequence1 3-3
+A
+>Sequence2 9-9
+A
+
+>Sequence1 3-3
+T
+>Sequence2 9-9
+T
 

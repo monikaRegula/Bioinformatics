@@ -1,6 +1,6 @@
 %TEST2
-sequence1 = 'AGTCGAG';
-sequence2 = 'GGATCGGA';
+sequence1 = 'AGT';
+sequence2 = 'ACTGGGACT';
 punctationMatrix = readPunctation('punctation.txt');
 gap = -1;
 

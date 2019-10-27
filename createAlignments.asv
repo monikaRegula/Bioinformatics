@@ -23,6 +23,7 @@ for k = 1:howManyTimesLoop
             %lokalnego
             if(currentPath(n,m) == 1)
                 if((alignment1 == "") && (alignment2 == "") && x~=0)
+                    disp('start')
                     alignment1 = strcat(alignment1,seq1(n-1));
                     alignment2 = strcat(alignment2,seq2(m-1));
                     if(seq1(n-1) == seq2(m-1) && temporarySteps(1,x) == 2 )
@@ -50,6 +51,8 @@ for k = 1:howManyTimesLoop
                             aligner = strcat(aligner," ");
                         end
                         if(temporarySteps(1,x) == 2 && (m<s2))
+                            disp('TAK')
+                            disp('warunk3')
                             x = x-1;
                             alignment1 = strcat(alignment1,seq1(n));
                             alignment2 = strcat(alignment2,seq2(m));

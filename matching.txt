@@ -1,20 +1,70 @@
-#Seq1: GACTTAC
-#Seq2: CGTGAATTCAT
-#Length: 8
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
 #Gap: -1
-#Identity: 5/8 63%
-#Gaps: 3/8 38%
-GA-CTTAC
-||  || |
-GAA-TT-C
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+A
+|
+A
 
-#Seq1: GACTTAC
-#Seq2: CGTGAATTCAT
-#Length: 8
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
 #Gap: -1
-#Identity: 5/8 63%
-#Gaps: 3/8 38%
-GA-CTT-A
-||  || |
-GAA-TTCA
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+T
+|
+T
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+G
+|
+G
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+G
+|
+G
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+G
+|
+G
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+A
+|
+A
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+T
+|
+T
 

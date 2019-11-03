@@ -9,7 +9,7 @@ for k = 1:m
     [a,b] = find(optimalPaths{k},1,'last');
     [c,d] = find(optimalPaths{k},1,'first');
     navigator = [[c-1,d-1];[a-1,b-1]];
-    indexes{1} = navigator;
+    indexes{k} = navigator;
 end
 
 end

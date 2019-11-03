@@ -1,35 +1,5 @@
->Sequence1 3-3
-A
->Sequence2 9-9
-A
-
->Sequence1 3-3
-T
->Sequence2 9-9
-T
-
->Sequence1 3-3
-G
->Sequence2 9-9
-G
-
->Sequence1 3-3
-G
->Sequence2 9-9
-G
-
->Sequence1 3-3
-G
->Sequence2 9-9
-G
-
->Sequence1 3-3
-A
->Sequence2 9-9
-A
-
->Sequence1 3-3
-T
->Sequence2 9-9
-T
+>Sequence1 1-3
+A--G----T
+>Sequence2 1-9
+ACTGGGACT
 

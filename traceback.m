@@ -77,7 +77,6 @@ for i = 1:howManyMaxes
             row = row -1;
             column = column -1;
             steps = [steps,2];
-            identity = identity + 1;
         end
     end
     

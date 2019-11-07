@@ -4,7 +4,7 @@ sequence2 = 'ACTGGGACT';
 %sequence1 = 'AGTCGAG';
 %sequence2 = 'GGATCGGA';
 punctationMatrix = readPunctation('punctation.txt');
-gap = 0;
+gap = -1;
 
 scoredMatrix = localMatching(sequence1,sequence2,gap,punctationMatrix);
 [stepsForAllPaths,optimalPaths,toFile,save] = traceback(scoredMatrix,sequence1,sequence2,gap,punctationMatrix);

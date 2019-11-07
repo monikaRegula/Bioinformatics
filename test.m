@@ -8,12 +8,12 @@ gap = -1;
 
 
 scoredMatrix = localMatching(sequence1,sequence2,gap,punctationMatrix);
-[optimalPath,optimalPaths] = traceback(scoredMatrix,sequence1,sequence2,gap,punctationMatrix);
+[stepsForAllPaths,optimalPaths,toFile,save] = traceback(scoredMatrix,sequence1,sequence2,gap,punctationMatrix);
 figure = imagesc(scoredMatrix);
 saveas(gcf,'scoredMatrix.png');
 plotScoreMatrix(scoredMatrix , optimalPaths, sequence1, sequence2);
 [indexes] = findIndexesForFasta(optimalPaths);
-[toFile,save] = createAlignments(optimalPaths,sequence1,sequence2,indexes,optimalPath);
+[save] = createFile(save,indexes);
 statisticFile(toFile,sequence1,sequence2,gap);
 
 

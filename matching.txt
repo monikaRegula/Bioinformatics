@@ -1,10 +1,70 @@
 #Seq1: AGT
 #Seq2: ACTGGGACT
-#Length: 9
-#Gap: 0
-#Identity: 6/9 67%
-#Gaps: 6/9 67%
-A--G----T
-|    |  |
-ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+A
+|
+A
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+T
+|
+T
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+G
+|
+G
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+G
+|
+G
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+G
+|
+G
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+A
+|
+A
+
+#Seq1: AGT
+#Seq2: ACTGGGACT
+#Length: 1
+#Gap: -1
+#Identity: 1/1 100%
+#Gaps: 0/1 0%
+T
+|
+T
 

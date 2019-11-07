@@ -21,7 +21,7 @@ gap = input('Enter punctation for gap: ');
 
 %Smith Waterman algorithm
 scoredMatrix = localMatching(sequence1,sequence2,gap,punctationMatrix);
-[optimalPath,optimalPaths] = traceback(scoredMatrix,sequence1,sequence2,gap,punctationMatrix);
+[stepsForAllPaths,optimalPaths,toFile,save] = traceback(scoredMatrix,sequence1,sequence2,gap,punctationMatrix);
 
 %Plot
 figure = imagesc(scoredMatrix);
@@ -32,7 +32,7 @@ plotScoreMatrix(scoredMatrix , optimalPaths, sequence1, sequence2);
 
 %Saving for file
 [indexes] = findIndexesForFasta(optimalPaths);
-[toFile,save] = createAlignments(optimalPaths,sequence1,sequence2,indexes,optimalPath);
+[save] = createFile(save,indexes);
 statisticFile(toFile,sequence1,sequence2,gap);
 
 

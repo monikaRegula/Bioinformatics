@@ -79,9 +79,9 @@ for i = 1:howManyMaxes
             steps = [steps,2];
         end
     end
-    
+  
     align1 = fliplr(alignment1);
-    alignerr = fliplr(aligner);
+    alignerr = reverse(aligner);
     align2 = fliplr(alignment2);
 
     stepsForAllPaths{i} = steps;
